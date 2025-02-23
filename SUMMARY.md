@@ -4,7 +4,9 @@
 
 ## For the users <a href="#users" id="users"></a>
 
-* [📱 Download](users/download.md)
+* [📱 Download](users/download/README.md)
+  * [🔄 Update application](users/download/update-application.md)
+* [📖 Offline dictionaries](users/offline-dictionaries.md)
 * [⁉️ Support](users/support.md)
 
 ## For the developers <a href="#developers" id="developers"></a>
@@ -36,6 +38,9 @@
   * [Generate my own database](database/build-dictionary/generate-my-own-database.md)
   * [About](database/build-dictionary/about.md)
 * [📌 Remède for your project](database/remede-for-your-project.md)
+* [📎 Available formats](database/available-formats/README.md)
+  * [DICT](database/available-formats/dict.md)
+  * [XDXF](database/available-formats/xdxf.md)
 * [©️ Credits](database/credits.md)
 
 ## Project
