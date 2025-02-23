@@ -25,7 +25,7 @@ Welcome to the Remède Documentation Centre ! Here you can understand what is Re
 This new documentation can contains broken links and errors. You can help us improving it on Github ! Thank you
 {% endhint %}
 
-
+Remède is an open source project whose goal is to provide a free, privacy respectful dictionary experience for everyone, everywhere.
 
 ### Jump right in
 
@@ -35,31 +35,32 @@ This new documentation can contains broken links and errors. You can help us imp
 
 This documentation is currently being rewritten; see the status below !
 
-* [ ] Database
+* [x] Database
   * [x] Internationalization
-  * [ ] Build
+  * [x] Build
   * [x] Dataset
   * [x] Schemas (db & doc)
   * [x] Rimes
 * [ ] Dev
   * [x] API
   * [x] Setup
-  * [ ] Guide
-  * [ ] Structure
-  * [ ] Web
-  * [ ] Android
+  * [x] Guide
+  * [x] Structure
+  * [x] Web
+  * [x] Android
   * [ ] Features
-    * [ ] Sheets
+    * [x] Sheets
     * [ ] DICT protocol
+    * [ ] Offline
 * [ ] Project
   * [x] Contributing
   * [x] Story
   * [ ] Schemas
-  * [ ] Next
+  * [x] Next
   * [x] Translation
 * [ ] Support
   * [ ] Download dicts
-  * [ ] Install
+  * [x] Install
 
 
 

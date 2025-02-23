@@ -9,7 +9,7 @@ description: Learn how to contribute to Remède !
 **To contribute, you can:**
 
 * Open an issue ([here](https://github.com/camarm-dev/remede/issues/new/choose))
-* Choose an issue or an enhancement idea, fork the repository, resolve it and open a pull request ! ([complete guide](contributing.md#guide))
+* Choose an issue or an enhancement idea, fork the repository, resolve it and open a pull request ! ([complete guide](./#guide))
 * Contact us to become part of our team (software@camarm.dev)
   * So you'll have access to this repository
 

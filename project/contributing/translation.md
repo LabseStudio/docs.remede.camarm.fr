@@ -107,4 +107,4 @@ if __name__ == '__main__':
     }
 ```
 
-See [internationalization](../database/database/internationalization/ "mention") docs for more information about a specific language.
+See [internationalization](../../database/database/internationalization/ "mention") docs for more information about a specific language.
