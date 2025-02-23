@@ -10,7 +10,7 @@ These schemas are a bit old and hard to understand, but they can help you to und
 
 ## Application working schema
 
-This schema shows how the mobile application (with the dictionary downloaded) is retrieving the data. {: .fs-3 .fw-300 }
+This schema shows how the mobile application (with the dictionary downloaded) is retrieving the data.
 
 ```mermaid
 graph LR
@@ -38,9 +38,11 @@ graph LR
     end
 ```
 
+
+
 ## Infrastructure schema
 
-This schema shows which extern services are used through their API by the mobile application. {: .fs-3 .fw-300 }
+This schema shows which extern services are used through their API by the mobile application.
 
 ```mermaid
 graph LR
@@ -68,7 +70,7 @@ graph LR
 
 ## Application requests schema
 
-Schemas showing how and when Remède make requests. {: .fs-3 .fw-300 }
+Schemas showing how and when Remède make requests.
 
 ### When database is not downloaded
 
@@ -101,8 +103,9 @@ sequenceDiagram
     API->>Memory: Get sheet
     Memory-->>API: 
     API->>-Frontend: {[...]}
-
 ```
+
+
 
 ### When database is downloaded
 
@@ -139,5 +142,7 @@ sequenceDiagram
     API->>-Frontend: {[...]}
 
 ```
+
+
 
 _Here, we can see that sheets can only be fetched with an internet connection. The same goes for the word of the day_

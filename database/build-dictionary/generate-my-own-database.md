@@ -1,10 +1,12 @@
+---
+description: Learn how to generate your own Remède database !
+---
+
 # Generate my own database
 
-Learn how to generate your own Remède database ! {: .fs-6 .fw-300 }
+Please read [Lifecycle](the-building-lifecycle.md) before.
 
-Please read [Lifecycle](https://docs.remede.camarm.fr/docs/database/build/lifecycle) before.
-
-See also [Quickly add a word](https://docs.remede.camarm.fr/docs/database/build/about).
+See also [Quickly add a word](about.md#quickly-add-a-word).
 
 ## 1 - Generate required ressources
 
@@ -14,7 +16,7 @@ python3 scripts/pre_generate_ressources.py
 
 ## 2 - Start parsing words
 
-You need to start [api-definition](https://docs.remede.camarm.fr/docs/database/build/about) in local, so our generation script can get definitions of Wiktionary.
+You need to start [api-definition](about.md#api-definition) in local, so our generation script can get definitions of Wiktionary.
 
 Start `generate.py`
 
@@ -24,9 +26,9 @@ python3 scripts/generate.py
 
 This operation take few days !
 
-{: .warning }
-
-> Generating a new database will erase the current one ! Make sure to save it before ! For example, make a copy of it; `cp data/remede.db data/remede.07-06-2024.db`
+{% hint style="warning" %}
+Generating a new database will erase the current one ! Make sure to save it before ! For example, make a copy of it; `cp data/remede.db data/remede.07-06-2024.db`
+{% endhint %}
 
 ## 3 - Enjoy your own database !
 

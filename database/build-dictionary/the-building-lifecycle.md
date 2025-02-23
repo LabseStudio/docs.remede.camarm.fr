@@ -17,7 +17,7 @@ Learn how to generate Remède database by yourself.
 Generation used to require to execute a lot of python scripts. But now, only two steps are required to generate a database.
 
 1. `pre_generate_ressources.py` generate multiple useful resources (`mots.txt` and `ipa.json`, from `IPA.txt`); see [Dataset](https://docs.remede.camarm.fr/docs/database/dataset)
-2. `generate.py` generate the **Sqlite database** which contains all the [Remède documents](https://docs.remede.camarm.fr/docs/database/schema) for each letter of the alphabet (see [generate.py](broken-reference))
+2. `generate.py` generate the **Sqlite database** which contains all the [Remède documents](https://docs.remede.camarm.fr/docs/database/schema) for each letter of the alphabet (see [generate.py](the-building-lifecycle.md#generate.py))
 
 {% hint style="warning" %}
 All the scripts are stored in `scripts` folder and must be executed from **project root**.
@@ -37,7 +37,7 @@ A script to iterate words and build their Remède document.
 
 ```mermaid
 flowchart TB
-  words[(Word\ndatabase)] --> Loop
+  words[(Word database)] --> Loop
   Loop(Parser loop) --> def[Definition API]
   Loop --> syn[aynonymo.fr]
   Loop --> ant[antonymes.org]
@@ -46,8 +46,8 @@ flowchart TB
   syn --> doc
   conj .-> doc
   ant --> doc
-  openlexicon[(Open Lexicon\nStats)] -- Syllables, elides and feminines\n stats merged and added to --> db
-  doc -- Is inserted into --> db[(Remède\nSqlite Database)]
+  openlexicon[(Open Lexicon Stats)] -- "Syllables, elides and feminines stats merged and added to" --> db
+  doc -- Is inserted into --> db[(Remède Sqlite Database)]
 ```
 
 _A lifecycle schema of `parse.py`_
