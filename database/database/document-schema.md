@@ -76,6 +76,10 @@ JSON schema of an indexed word by Remède looks like:
     "antonymes_org"
   ],
   "phoneme": "/ʁəmɛd/",
+  "pronunciation": {
+    "audio": "https://upload.wikimedia.org/wikipedia/commons/2/27/Fr-rem%C3%A8de.ogg",
+    "credits": "https://commons.wikimedia.org/w/index.php?curid=3043985"
+  },
   "conjugations": {}
 }
 ```
@@ -90,12 +94,15 @@ Here are the specifications of each field :
   * `nature` (`string`): The grammar class of defined word
   * `explanations` (`[]string`): List of possible explanation of defined word
   * `examples` (`[]string`): List of examples sentences using this word (NOT IMPLEMENTED)
-* `plurals` (`[]{}`): The word plurals
+* `plurals` (`{}[]`): The word plurals
   * `label`: A label related to the type of the plural
   * `singular`: The word as singular
   * `plural`: The plural of the word
 * `source` (`string[]`):A list of sources ids, to be displayed in interface. Their urls and link can be found at [app/src/functions/sources.ts](https://github.com/camarm-dev/remede/tree/main/app/src/functions/sources.ts). Sources are also described at Database Credits page.
 * `phoneme` (`string`): International Phonetic Alphabet pronunciation of the word
+* `pronunciation` (`{}`): Word pronunications audios
+  * `audio` (`string`): Word audio URL
+  * `credits` (`string`): Word credits URL
 * `conjugations` (`{}`): Object containing word's conjugations
   * `[mode name]` (`{}`): Object containing conjugations' tenses for mode
     * `[tense name]` (`{}`): Object containing subjects of tense
