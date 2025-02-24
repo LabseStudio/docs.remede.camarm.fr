@@ -20,11 +20,11 @@ First, execute the script
 python3 dictd/prepare.py
 ```
 
-Then, switch to the `dictd/dictionaries` directory. Using `dictfmt` , generate the `.index` and `.dict` files.
+Then, switch to the `convert/dictionaries` directory. Using `dictfmt` , generate the `.index` and `.dict` files.
 
 ```
 dictfmt -e --utf8 --allchars -s "Remède Français" remede < remede.txt
 dictfmt -e --utf8 --allchars -s "Remède English" remede.en < remede.en.txt
 ```
 
-_Remède database are now available in the DICT format at `dictd/dictionaries` ._
+_Remède database are now available in the DICT format at `convert/dictionaries` ._

@@ -12,4 +12,4 @@ You can download the `.xdxf` format for each dictionary directly from the [Githu
 
 ### How to convert
 
-To convert Remède dictionaries databases to the XDXF format, we first convert it to the DICT format ([dict.md](dict.md "mention")) and then to XDXF using [pyglossary](https://github.com/ilius/pyglossary).
+To convert Remède dictionaries databases to the XDXF format, there is the `convert/xdxf.py` script. It converts the Remède dictionaries databases to XDXF.

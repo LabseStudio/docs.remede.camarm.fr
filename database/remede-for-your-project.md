@@ -43,6 +43,10 @@ The **XML Dictionary eXange Format** (XDXF) is a dictionary format created in 20
 You can download the Remède dictionaries in the XDXF format (`.xdxf` files) from the [release section](https://github.com/camarm-dev/remede) on Github.
 {% endtab %}
 
+{% tab title="CSV" %}
+You can download the Remède dictionaries in the CSV format (`.csv` files) from the [release section](https://github.com/camarm-dev/remede) on Github.
+{% endtab %}
+
 {% tab title="JSON files (Depreciated)" %}
 You can download the JSON files on our [Github Repository](https://github.com/camarm-dev/remede/tree/1.2.3/data).
 

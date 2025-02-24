@@ -41,6 +41,7 @@
 * [📎 Available formats](database/available-formats/README.md)
   * [DICT](database/available-formats/dict.md)
   * [XDXF](database/available-formats/xdxf.md)
+  * [CSV](database/available-formats/csv.md)
 * [©️ Credits](database/credits.md)
 
 ## Project
