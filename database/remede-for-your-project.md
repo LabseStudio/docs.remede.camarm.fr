@@ -55,3 +55,5 @@ JSON files are depreciated since <kbd>1.3.0</kbd> and removed by <kbd>1.4.0</kbd
 
 
 Even if it is depreciated, you can also read our blog post "[Utiliser les données Remède](https://remede.camarm.fr/2023/11/19/Utiliser-les-donnees-Remede.html)".
+
+See also [available-formats](available-formats/ "mention").
