@@ -10,7 +10,7 @@ description: Learn how to download offline dictionaries in Remède.
 {% step %}
 ### Go to the settings page
 
-Go to the settings page using the menu.
+Go to the settings page using the menu. Then click on "Offline dictionaries".
 
 <div align="left"><figure><img src="../.gitbook/assets/image (1).png" alt="" width="206"><figcaption><p>Screenshot of the application menu.</p></figcaption></figure></div>
 {% endstep %}

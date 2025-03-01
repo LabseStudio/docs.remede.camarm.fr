@@ -7,6 +7,7 @@
 * [📱 Download](users/download/README.md)
   * [🔄 Update application](users/download/update-application.md)
 * [📖 Offline dictionaries](users/offline-dictionaries.md)
+* [🌐 Dictionaries servers](users/dictionaries-servers.md)
 * [⁉️ Support](users/support.md)
 
 ## For the developers <a href="#developers" id="developers"></a>
