@@ -56,8 +56,11 @@ JSON files are depreciated since <kbd>1.3.0</kbd> and removed by <kbd>1.4.0</kbd
 {% endtab %}
 {% endtabs %}
 
-
-
 Even if it is depreciated, you can also read our blog post "[Utiliser les données Remède](https://remede.camarm.fr/2023/11/19/Utiliser-les-donnees-Remede.html)".
 
 See also [available-formats](available-formats/ "mention").
+
+```
+Dictionaries distributed by The Remède Project <software@camarm.dev> © 2023-now CECILL-2.1.
+Includes data from third-parties services governed by other free licenses. See https://docs.remede.camarm.fr/database/credits for further information.
+```

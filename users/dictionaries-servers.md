@@ -7,7 +7,7 @@ description: >-
 # 🌐 Dictionaries servers
 
 {% hint style="warning" %}
-Using Remède as a DICT client is **only available for Android devices**.
+Using Remède as a DICT client is **only available for Android devices**. See more : [#support](dictionaries-servers.md#support "mention").
 {% endhint %}
 
 ### What is a dictionary server
@@ -100,3 +100,18 @@ You can add your owns dictionary servers using the "Add a server button".
 <div align="left"><figure><img src="../.gitbook/assets/image (15).png" alt="" width="188"><figcaption><p>Search source selection</p></figcaption></figure> <figure><img src="../.gitbook/assets/image (16).png" alt="" width="188"><figcaption><p>Browsing DICT servers from Remède !</p></figcaption></figure> <figure><img src="../.gitbook/assets/image (17).png" alt="" width="188"><figcaption><p>Simplified definition page</p></figcaption></figure></div>
 {% endstep %}
 {% endstepper %}
+
+### Support
+
+| Device                  | Support              | Method                                 |
+| ----------------------- | -------------------- | -------------------------------------- |
+| :green\_circle: Android | :white\_check\_mark: | Native TCP request client, with Java.  |
+| :apple: iOS             | :x:                  | Future : With a proxy owned by Remède. |
+| :desktop: Desktop       | :x:                  | Future : With a proxy owned by Remède. |
+
+The support of this functionality is limited because the DICT protocol is based on the TCP protocol. Remède is powered by web technologies (Javascript, HTML, CSS), and Javascript does not allows us to use TCP Sockets. The only two methods are to write a TCP Socket client with native code (like we do for Android) or to send the request through a proxy server.
+
+{% hint style="info" %}
+The proxy server is owned and developed by Remède (see NO LINK YET)
+{% endhint %}
+
